@@ -12,15 +12,15 @@
     <title>Aprende HTML5 y CSS3 | Supraescolar</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{site.baseurl}}css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <link href="{{site.baseurl}}css/stylish-portfolio.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="{{site.baseurl}}font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     
-    <link href="https://fonts.googleapis.com/css?family=Istok+Web|Varela" rel="stylesheet">
+    <link href="{{site.baseurl}}https://fonts.googleapis.com/css?family=Istok+Web|Varela" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -36,47 +36,15 @@
 
 {{content}}
 
+{% include footer1.html %}
 
 
-<!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>¿Tienes alguna duda?</strong>
-                    </h4>
-                    <p>Ponte en contacto con el Instructor
-                        <br>Mario González H.</p>
-                    <ul class="list-unstyled">
-                        <li><i class="fa fa-phone fa-fw"></i> (33) 1330-4666 | WhatsApp</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:mario@circuloux.com">mario@circuloux.com</a>
-                        </li>
-                    </ul>
-                    <br>
-                    <ul class="list-inline">
-                        <li>
-                            <a href="http://www.circuloux.com"><i class="fa fa-laptop fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="http://www.supraescolar.com"><i class="fa fa-wordpress fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/supraescolar/?fref=ts&ref=br_tf"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-                        </li>
-                    </ul>
-                    <hr class="small">
-                    <p class="text-muted">2016 &copy; Supraescolar | México</p>
-                </div>
-            </div>
-        </div>
-        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
-    </footer>
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="{{site.baseurl}}js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="{{site.baseurl}}js/bootstrap.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script>
