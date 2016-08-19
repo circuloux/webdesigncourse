@@ -1,0 +1,3 @@
+markdown: redcarpet
+baseurl: /webdesigncourse
+exclude: ['README.md']
