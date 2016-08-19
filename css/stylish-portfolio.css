@@ -224,12 +224,14 @@ hr.small {
 .bg-gris {
     background:#4a4a4a;
     color:lightgray;
+    font-family: 'Varela', sans-serif;
     
     
 }
 
 .titulo {
     padding-bottom: 45px;
+    font-family: 'Istok Web', sans-serif;
 }
 
 .overlaytext {
