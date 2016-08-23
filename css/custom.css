@@ -1,0 +1,21 @@
+/***************************
+Add your custom styles below
+****************************/
+
+
+/* IMÁGENES*/
+
+.feature__title h6{
+    position:relative;
+    top: 30px;
+}
+
+.features__logo {
+    max-width:90px;
+    
+}
+
+
+.my__footer {
+    background:black;
+}

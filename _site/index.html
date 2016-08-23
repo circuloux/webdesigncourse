@@ -1,430 +1,545 @@
-<!DOCTYPE html>
+
+<!doctype html>
 <html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Curso de HTML5 y CSS3 | Supraescolar</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="Supraescolar" content="Curso de HTML & CSS para jóvenes">
+        <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+        <link href="css/iconsmind.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="css/interface-icons.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="css/theme-blue.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="css/custom.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400italic,300italic,300%7CLato:400,400italic" rel="stylesheet" type="text/css">
+        <link href="css/font-mulilato.css" rel="stylesheet" type="text/css">
+    </head>
 
-<head>
+    <body>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="Supraescolar" content="Curso de HTML & CSS para jóvenes">
-
-    <title>Aprende HTML5 y CSS3 | Supraescolar</title>
-
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
-    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
-    
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/stylish-portfolio.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    
-    <link href="https://fonts.googleapis.com/css?family=Istok+Web|Varela" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
-
-<body>
-
-
-    <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
-    <nav id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-            <li class="sidebar-brand">
-                <a href="#top" onclick=$("#menu-close").click();><img src="img/logo.png" alt="logo" id=logomenu></a>
-            </li>
-            <li>
-                <a href="#top" onclick=$("#menu-close").click();>Inicio</a>
-            </li>
-            <li>
-                <a href="#about" onclick=$("#menu-close").click();>Acerca del Curso</a>
-            </li>
-            <li>
-                <a href="#services" onclick=$("#menu-close").click();>Características</a>
-            </li>
-            <li>
-                <a href="#portfolio" onclick=$("#menu-close").click();>Temario</a>
-            </li>
-            <li>
-                <a href="#inscripcion" onclick=$("#menu-close").click();>Inscripción</a>
-            </li>
-            <li>
-                <a href="#contact" onclick=$("#menu-close").click();>Contacto</a>
-            </li>
-        </ul>
-    </nav>
-
-    <!-- Header -->
-    <header id="top" class="header">
-        <div class="overlay"></div>
-        <div class="text-vertical-center hero1__title">
-            <img id="fotoportada" src="img/marioportada.png" alt="foto del instructor">
-            <img src="img/logo.png" alt="logo supraescolar" id="logo1">
-            <h2>Curso de Diseño Web <span>para Jóvenes</span></h2>
-            <p>Clases en Vivo | Aprende HTML5 &amp; CSS3 | Jueves 6:00 pm</p>
-
-        </div>
-    </header>
-
-    <!-- About -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="azul">Aprende Código Web de manera fácil y divertida <br> <span>Comenzamos el Jueves 8 de Septiembre de 2016</span></h2>
-                    <p class="lead">La idea de este curso es invitar a <span>jóvenes de 12 a 16 años</span> a que desarrollen su primer página web utilizando los lenguajes HTML5 y CSS3 que son la base para la creación de todos los sitios web y muchas de las aplicaciones móviles que existen en el mundo.</p>
-                
-                <img id="mbp" class="img-responsive" src="img/mbp.png" alt="imagen de computadora">
-                
+				
+		<!-- Navigation -->
+    <nav>
+            <div class="nav-bar nav--absolute nav--transparent" data-fixed-at="200">
+                <div class="nav-module logo-module left">
+                    <a href="index.html">
+                        <img class="logo logo-dark" alt="logo" src="img/logosupra.png" />
+                        <img class="logo logo-light" alt="logo" src="img/logo-light.png" />
+                    </a>
                 </div>
             </div>
-            <!-- /.row -->
+            <!--end nav bar-->
+            <div class="nav-mobile-toggle" data-modal-id data-notification-link="nav-slide">
+                <i class="icon-Align-Right icon icon--sm"></i>
+                <span class="h6">Menu</span>
+            </div>
+        </nav>
+        <div class="notification pos-right pos-top nav-slide text-center col-sm-6 col-xs-12 bg--dark" data-notification-link="nav-slide" data-animation="from-right">
+            <div class="nav-slide__content">
+                <div class="pos-vertical-center">
+                    <a class="logo" href="index.html">
+                        <img alt="logo" src="img/logo-light.png" />
+                    </a>
+                    <ul class="menu">
+                        <li>
+                            <a href="#top">
+                                <span class="h4">Inicio</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#caracteristicas">
+                                <span class="h4">Características</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#instructor">
+                                <span class="h4">Instructor</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#detalles">
+                                <span class="h4">Más detalles</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#inscribete">
+                                <span class="h4">Inscripciones</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:marioglezhdez@me.com">
+                                <span class="h4">Email</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="pos-absolute pos-bottom">
+                    <ul class="social-list">
+                        <li>
+                            <a href="#">
+                                <i class="socicon-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="socicon-dribbble"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="socicon-vimeo"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="socicon-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <span class="type--fine-print">&copy; 2016 Supraescolar | Mario González Hernández - Derechos Reservados</span>
+                </div>
+            </div>
         </div>
-        <!-- /.container -->
-    </section>
-
-    <!-- Services -->
-    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-    <section id="services" class="services bg-gris">
-        <div class="container .gris">
-            <div class="row text-center .gris">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <h2 class="titulo"><span>¡Aprender Código es Genial!</span></h2>
+		
+		<div class="main-container">
+		      
+		      
+		      
+		     <section class="cover height-70 imagebg parallax" data-overlay="2"><a id="curso"></a>
+		                <div class="background-image-holder">
+		                    <img alt="background" src="img/hero4.jpg">
+		                </div>
+		                <div class="container pos-vertical-center">
+		                    <div class="row">
+		                        <div class="col-sm-6">
+		                            <h2>Curso de Código Web para los líderes del futuro</h2>
+		                        </div>
+		                    </div>
+		                    
+		                </div>
+		                
+		            </section>
+              <section class="features features-5">
+		                <div class="container">
+		                    <div class="row">
+		                        <div class="col-sm-12 text-center">
+		                            <h3>Una innovadora experiencia supraescolar <br>para niños y jóvenes de 12 a 16 años de edad<br></h3>
+		                            <p class="lead">Un curso dinámico, moderno y divertido <br>para aprender los dos lenguajes más importantes de la web.</p>
+		                        </div>
+		                        
+		                        <div class="col-md-6 col-sm-12">
+                            
+                            <div class="card card--horizontal card-2">
+                                <div class="card__image col-sm-5">
+                                    <div class="background-image-holder">
+                                        <img alt="Pic" src="img/html-5.svg" />
+                                    </div>
+                                </div>
+                                <div class="card__body col-sm-7	 boxed bg--white">
+                                    <div class="card__title">
+                                        <h4>HTML5</h4>
+                                    </div>
+                                    <span>
+                                        <em>Hypertext Markup Language</em>
+                                    </span>
+                                    <p>
+                                        Aprende a crear tus propia páginas web a través del lenguaje más importante y básico de Internet.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="card card--horizontal card-2">
+                                <div class="card__image col-sm-5">
+                                    <div class="background-image-holder">
+                                        <img alt="Pic" src="img/css-3.svg" />
+                                    </div>
+                                </div>
+                                <div class="card__body col-sm-7	 boxed bg--white">
+                                    <div class="card__title">
+                                        <h4>CSS3</h4>
+                                    </div>
+                                    <span>
+                                        <em>Cascading Style Sheet</em>
+                                    </span>
+                                    <p>
+                                        Dale vida, color, dimensión y estilo a tu página web a través del segundo lenguaje más importante y complementario de la web.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+		                        
+		                        
+		                        <div class="col-sm-12 text-center">
+                                    <h3 style="padding-top:70px; margin-bottom:-50px;">Aprende código y adquiere superpoderes</h3>
+		                            <img alt="device" src="img/mbp.png">
+		                        </div>
+		                    </div>
+		                    
+		                
+		                
+		  </section>
+              <section class="stats-1 bg--secondary"><a id="caracteristicas"></a>
+		                <div class="container">
+		                    <div class="row">
+		                        <div class="col-sm-12 text-center">
+		                            <h3 style="padding-bottom:50px;">Características del Curso</h3>
+		                        </div>
+		                    </div>
+		                    
+		                    <div class="row">
+		                        <div class="col-sm-4">
+		                            <div class="feature feature-1 text-center boxed boxed--lg">
+		                                <i class="icon color--primary icon-Astronaut icon--lg"></i>
+		                                <h3>Clases en Vivo</h3>
+		                                <span>
+		                                    <em>Toma tus clases desde cualquier planeta que tenga Internet</em>
+		                                </span>
+		                            </div>
+		                        </div>
+		                        
+		                        <div class="col-sm-4">
+		                            <div class="feature feature-1 text-center boxed boxed--lg">
+		                                <i class="icon icon--lg icon-Thumbs-UpSmiley color--primary"></i>
+		                                <h3>Fácil y Divertido</h3>
+		                                <span>
+		                                    <em>Especialmente diseñado para alumnos de 12 a 16 años de edad</em>
+		                                </span>
+		                            </div>
+		                        </div>
+		                        <div class="col-sm-4">
+                                    <div class="feature feature-1 text-center boxed boxed--lg">
+                                            <i class="icon icon--lg icon-Bodybuilding color--primary"></i>
+                                            <h3>Poderoso</h3>
+                                            <span>
+                                                <em>Aprender código web es el primer paso para adquirir superpoderes</em>
+                                            </span>
+                                    </div>
+		                        </div>
+                                <div class="col-sm-4">
+		                            <div class="feature feature-1 text-center boxed boxed--lg">
+		                                <i class="icon icon--lg icon-Alarm-Clock color--primary"></i>
+		                                <h3>60 Minutos</h3>
+		                                <span>
+		                                    <em>Tu clase en vivo será de una hora a la semana</em>
+		                                </span>
+		                            </div>
+		                        </div>
+		                        
+		                        <div class="col-sm-4">
+		                            <div class="feature feature-1 text-center boxed boxed--lg">
+		                                <i class="icon color--primary icon-Calendar-3 icon--lg"></i>
+		                                <h3>10 semanas</h3>
+		                                <span>
+		                                    <em>Clases y actividades adicionales en 2 módulos de 5 semanas</em>
+		                                </span>
+		                            </div>
+		                        </div>
+		                        <div class="col-sm-4">
+		                            <div class="feature feature-1 text-center boxed boxed--lg">
+		                                <i class="icon color--primary icon-Internet icon--lg"></i>
+		                                <h3>Proyecto Real</h3>
+		                                <span>
+		                                    <em>Construye tu propia página web desde ceros.</em>
+		                                </span>
+		                            </div>
+		                        </div>
+		                    </div>
+		                    
+		                </div>
+		                
+		            </section>
+                
+              <section id="instructor" class="imageblock">
+		                <div class="imageblock__content col-md-6 col-sm-4 pos-left">
+		                    <div class="background-image-holder">
+		                        <img alt="image" src="img/mario.jpg">
+		                    </div>
+		                </div>
+		                <div class="col-md-6 col-md-push-6 col-sm-8 col-sm-push-4">
+		                    <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+		                        <div class="feature feature-1 service-1 text-center">
+		                            <i class="icon icon-Profile icon--lg"></i>
+		                            <h4>Instructor del Curso</h4>
+		                            <p><strong>Mario González</strong> es diseñador web, desarrollador de cursos supraescolares y papá de 3 niños educados en casa, los cuales son apasionados de las nuevas tecnologías, la programación y los videojuegos. <br> Mario es también el instructor del curso de programación para niños con Scratch.</p>
+		                            <hr>
+		                            <h6>Especialidades</h6>
+		                            <ul class="bullets">
+		                                <li>
+		                                    <em>Desarrollo y Diseño Web</em>
+		                                </li>
+		                                <li>
+		                                    <em>Enseñanza Online</em>
+		                                </li>
+		                                <li>
+		                                    <em>Educación Supraescolar</em>
+		                                </li>
+		                            </ul>
+		                        </div>
+		                    </div>
+		                </div>
+		            </section>
+                   
+                      
+                   
+              <section id="detalles" class="bg--secondary space--sm shop-tabs">
+		               
+                            
+                          <div class="container">
+		                    <div class="row">
+		                        <div class="tabs-container tabs-1">
+		                            <ul class="tabs text-center">
+		                                <li class="active">
+		                                    <div class="tab__title btn">
+		                                        <span class="btn__text">Fecha de inicio</span>
+		                                    </div>
+		                                    <div class="tab__content">
+		                                        <div class="row pos-vertical-align-columns">
+		                                            <div class="col-md-6" style="margin-top:-35px; margin-left:10px;">
+		                                                <h4>CLASES EN VIVO</h4>
+		                                                <p>
+		                                                    Este curso iniciará el día jueves<br> <strong>8 de septiembre a las 18:00 horas</strong><br> (tiempo del centro de México)<br><br>El curso tiene una duración de <strong>10 semanas</strong> <br>dividido en <strong>2 módulos</strong> de 5 semanas cada uno.</p>
+		                                            </div>
+		                                            <div class="col-md-4 col-md-push-1 hidden-sm">
+		                                                <img class="img-responsive"alt="pic" src="img/calendario.png" style="max-width: 300px; padding-30px;margin:auto;margin-top:35px;">
+		                                            </div>
+		                                        </div>
+		                                    </div>
+		                                </li>
+		                                <li>
+		                                    <div class="tab__title btn">
+		                                        <span class="btn__text">Módulos del Curso</span>
+		                                    </div>
+		                                    <div class="tab__content">
+		                                        <div class="row pos-vertical-align-columns">
+		                                            <div class="col-md-6">
+		                                                <div class="card card--horizontal card-2">
+                                                            <div class="card__image col-sm-5">
+                                                                <div class="background-image-holder">
+                                                                    <img alt="Pic" src="img/nina.svg" />
+                                                                </div>
+                                                            </div>
+                                                            <div class="card__body col-sm-7	 boxed bg--white">
+                                                                <div class="card__title">
+                                                                    <h4>Módulo 1</h4>
+                                                                </div>
+                                                                <span>
+                                                                    <em>Semanas 1 - 5</em>
+                                                                </span>
+                                                                <ul>
+                                                                    <li>Introducción</li>
+                                                                    <li>Conceptos HTML I</li>
+                                                                    <li>Conceptos HTML II</li>
+                                                                    <li>Conceptos CSS I</li>
+                                                                    <li>Conceptos CSS II</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+		                                            </div>
+		                                            <div class="col-md-6">
+		                                                <div class="card card--horizontal card-2">
+                                                            <div class="card__image col-sm-5">
+                                                                <div class="background-image-holder">
+                                                                    <img alt="Pic" src="img/nino.svg" />
+                                                                </div>
+                                                            </div>
+                                                            <div class="card__body col-sm-7	 boxed bg--white">
+                                                                <div class="card__title">
+                                                                    <h4>Módulo 2</h4>
+                                                                </div>
+                                                                <span>
+                                                                    <em>Semanas 6 - 10</em>
+                                                                </span>
+                                                                <ul>
+                                                                    <li>Diseño Web</li>
+                                                                    <li>Mi Página Web I</li>
+                                                                    <li>Mi Página Web II</li>
+                                                                    <li>Mi Página Web III</li>
+                                                                    <li>Publicación</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+		                                        </div>
+		                                    </div>
+		                                </li>
+		                                <li>
+		                                    <div class="tab__title btn">
+		                                        <span class="btn__text">Preguntas Frecuentes</span>
+		                                    </div>
+		                                    <div class="tab__content">
+		                                        <div class="row pos-vertical-align-columns">
+		                                            <div class="col-md-6">
+		                                                <ul class="accordion accordion--one-open">
+                                                            <li>
+                                                                <div class="accordion__title">
+                                                                    <span>¿Cómo se imparte la clase en vivo?</span>
+                                                                </div>
+                                                                <div class="accordion__content">
+                                                                    <p> Las clases en vivo se imparten a través de ZOOM.US, un programa parecido a Skype que utilizamos como plataforma para nuestras clases. </p>
+                                                                    <p>Podrás descargarlo gratuitamente con las instrucciones que recibirás al momento de inscribirte.</p>
+                                                                </div>
+                                                             </li>
+                                                        </ul>
+                                                        <ul class="accordion accordion--one-open">
+                                                            <li>
+                                                                 <div class="accordion__title">
+                                                                    <span>¿Qué requerimientos técnicos necesitamos para tomar el curso?</span>
+                                                                </div>
+                                                                <div class="accordion__content">
+                                                                    <p>Sólo necesitas una computadora con acceso a Internet. Puedes utilizar:</p> 
+                                                                    <ul>
+                                                                        <li>Windows (PC)</li>
+                                                                        <li>OSX (Mac)</li>
+                                                                        <li>Ubuntu (Linux)</li>
+                                                                    </ul>
+                                                                    
+                                                                    <p>Los programas y herramientas que utilizarás en clase los podrás descargar gratuitamente a tu computadora.</p>
+                                                                </div>
+                                                             </li>
+                                                        </ul>
+                                                        <ul class="accordion accordion--one-open">
+                                                            <li>
+                                                                 <div class="accordion__title">
+                                                                    <span>¿Es posible inscribir a un alumno menor de 12 o mayor de 16 años?</span>
+                                                                </div>
+                                                                <div class="accordion__content">
+                                                                    <p>La respuesta es sí. Sin embargo, es necesario que los padres tomen en cuenta <strong>la madurez y aptitud</strong> del alumno para tomar un curso que requiere dedicación y experiencia suficiente para utilizar una computadora, abrir y guardar carpetas y archivos, así como sentirse familiarizado con el uso de Internet.</p>
+                                                                </div>
+                                                             </li>
+                                                        </ul>
+                                                    </div>
+                                                    
+                                                    
+                                                    <div class="col-md-6">
+		                                                <ul class="accordion accordion--one-open">
+                                                            <li>
+                                                                <div class="accordion__title">
+                                                                    <span>¿Qué pasa si no puedo estar en una clase en vivo?</span>
+                                                                </div>
+                                                                <div class="accordion__content">
+                                                                    <p>La clase en vivo se grabará para que los alumnos que no puedan asistir por alguna razón, puedan consultar el video.</p> 
+                                                                    
+                                                                    <p> La grabación de la clase también es útil para repasar los conceptos y ejemplos vistos en clase.</p>
+                                                                </div>
+                                                             </li>
+                                                        </ul>
+                                                        <ul class="accordion accordion--one-open">
+                                                            <li>
+                                                                 <div class="accordion__title">
+                                                                    <span>¿Cuánto tiempo deben practicar además de la clase?</span>
+                                                                </div>
+                                                                <div class="accordion__content">
+                                                                    <p>En promedio, un alumno practica 1 o 2 horas diarias a partir del módulo 2. El módulo I tiene que ver con descubrir, jugar con las herramientas y practicar los conceptos básicos. El módulo II consiste en crear tu primer página web.</p>
+                                                                </div>
+                                                             </li>
+                                                        </ul>
+                                                        <ul class="accordion accordion--one-open">
+                                                            <li>
+                                                                 <div class="accordion__title">
+                                                                    <span>¿Qué necesito para inscribirme?</span>
+                                                                </div>
+                                                                <div class="accordion__content">
+                                                                    <p>La inscripción es muy sencilla. Debes realizar el pago del curso a través de Santander, Oxxo o Paypal y enviar el comprobante de pago con tus datos de contacto a: <a href="mailto:mario@circuloux.com">mario@circuloux.com</a></p>
+                                                                    
+                                                                    <p>Posteriormente, recibirás un formulario de inscripción con las indicaciones para que comiences el curso.</p>
+                                                                </div>
+                                                             </li>
+                                                        </ul>
+                                                    </div>
+		                                      </div>
+		                                    </div>
+		                                </li>
+		                            </ul>
+		                        </div>
+		                        
+		                    </div>
+		                    
+		                </div>
+		                
+		            </section>
+        
+              <section id="inscribete" class="cta cta-6">
+		                <div class="container">
+		                    <div class="row">
+		                        <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
+		                            <h3>Inscríbete ahora</h3>
+		                            <p class="lead">
+		                                Reserva tu lugar. Iniciamos clases el día <strong>8 de septiembre de 2016</strong>
+		                            </p>
+		                            
+		                            <p class="lead">
+		                                Precio: <strong>MX$450 pesos por módulo</strong>
+		                            </p>
+		                            
+		                        </div>
+		                    </div>
+		                    
+		                </div>
+		                
+		            </section>
                     
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                
-                                <h4>
-                                    <strong>Clases en Vivo</strong>
-                                </h4>
-                                <p>Toma una clase de 90 minutos en vivo a través de nuestra aula virtual una vez por semana.</p>
-                            
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                
-                                <h4>
-                                    <strong>Fácil, Práctico y Divertido</strong>
-                                </h4>
-                                <p>Aprende a través de lecciones dinámicas y crea una página web desde ceros con HTML5 y CSS3.</p>
-                                
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                
-                                <h4>
-                                    <strong>Actividades Semanales</strong>
-                                </h4>
-                                <p>Consulta la grabación de la clase y realiza actividades adicionales para aprender más.</p>
-                                
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                
-                                <h4>
-                                    <strong>Súbela a Internet</strong>
-                                </h4>
-                                <p>Aprende cómo subir tu propia página web a Internet y editarla cuando lo desees.</p>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.row (nested) -->
-                </div>
-                <!-- /.col-lg-10 -->
-            </div>
-            <!-- /.row -->
+              <section>
+		                <div class="container">
+		                    <div class="row">
+		                        <div class="col-sm-4">
+		                            <div class="feature feature-1 text-center">
+		                                <i class="icon color--primary icon-Money icon--lg"></i>
+		                                <h5>Paso 1: &nbsp;Deposita $450 pesos</h5>
+		                                <p>Santander<br>Titular: Mario González Hernandez<br>CLABE:&nbsp;014320566445796590<br>Oxxo:&nbsp;5579 1000 7300 9076<br><br>Paypal ($30 pesos extra):<br><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=F3N5YBATGC3TL" target="_blank">Pagar Ahora</a></p>
+		                            </div>
+		                        </div>
+		                        <div class="col-sm-4">
+		                            <div class="feature feature-1 text-center">
+		                                <i class="icon color--primary icon-Mail-Send icon--lg"></i>
+		                                <h5>Paso 2: Notifica tu pago</h5>
+		                                <p>Envía un correo enviando copia de tu comprobante de pago a:<br><br><a href="mailto:marioglezhdez@me.com">marioglezhdez@me.com</a><br><br>Señala:<br>1. Nombre de papá o mamá<br>2. Nombre del alumno<br>3. Módulo al que se inscribe<br>4. Datos de Contacto</p>
+		                            </div>
+		                        </div>
+		                        <div class="col-sm-4">
+		                            <div class="feature feature-1 text-center">
+		                                <i class="icon color--primary icon-Check icon--lg"></i>
+		                                <h5>Paso 3: Sigue las instrucciones</h5>
+		                                <p>Recibirás una forma de inscripción que deberás llenar, además de las instrucciones precisas de los programas gratuitos que podrás descargar antes de la primera clase.</p>
+		                            </div>
+		                        </div>
+		                    </div>
+		                    
+		                </div>
+		                
+		            </section>
+		      
+		      
+		  
+        <!-- Footer -->
+              <footer class="my__footer">
+                    
+                 <div class="col-md-12 text-center"><p>&copy; 2016 | Supraescolar - Mario González Hernández</p></div>
+                    
+		            
+		      </footer>
+				
+                   <script src="js/jquery-2.1.4.min.js"></script>
+                <script src="js/scrollreveal.min.js"></script>
+                <script src="js/parallax.js"></script>
+                <script src="js/scripts.js"></script>
+                <!-- Google Analytics -->
+                  <script>
+                  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+                  ga('create', 'UA-82837745-1', 'auto');
+                  ga('send', 'pageview');
+
+                  </script>    
+        
         </div>
-        <!-- /.container -->
-    </section>
-
-    <!-- Callout -->
-    <aside class="callout">
-        <div class="text-vertical-center">
-            <h2 class="titulo">Aprender código web es el primer paso para adquirir <span>superpoderes</span>.</h2>
-        </div>
-    </aside>
-
-    <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2 class="azul titulo">Temario del Curso</h2>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
-                                    <div class="overlaytext"><p>Semana 1: Herramientas</p></div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
-                                    <div class="overlaytext"><p>Semana 2: Principios de HTML5</p></div>
-                                
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                
-                                    <img class="img-portfolio img-responsive" src="img/p3.png">
-                                    <div class="overlaytext"><p>Semana 3: Principios de CSS3</p></div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                
-                                    <img class="img-portfolio img-responsive" src="img/p11.png">
-                                    <div class="overlaytext"><p>Semana 4: Principios de Diseño</p></div>
-                                
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                
-                                    <img class="img-portfolio img-responsive" src="img/p9.png">
-                                    <div class="overlaytext"><p style="color:whitesmoke;">Semana 5: Tu Primera Página Web I</p></div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                
-                                    <img class="img-portfolio img-responsive" src="img/p6.png">
-                                    <div class="overlaytext"><p>Semana 6: Tu Primera Página Web II</p></div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
-                                    <div class="overlaytext"><p style="color:whitesmoke;">Semana 7: Tu Primera Página Web III</p></div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                
-                                    <img class="img-portfolio img-responsive" src="img/p5.png">
-                                    <div class="overlaytext"><p>Semana 8: Publicación de tu Página Web</p></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- /.col-lg-10 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
-
-    <!-- Call to Action -->
-    <section class="call-to-action bg-gris" id="inscripcion" class="inscripcion">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3 class="titulo">Proceso de Inscripción<br> <span>Comenzamos el Jueves 8 de Septiembre de 2016</span></h3>
-                </div>
-                <div class="row">
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                
-                                <h4>
-                                    <strong>¿Cuál es el Costo?</strong>
-                                </h4>
-                                <p>El costo es de <span>MX$ 850 pesos</span>. El método de pago es a través de depósito en Santander, Oxxo o Paypal.</p>
-                            
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                
-                                <h4>
-                                    <strong>¿Cuál es el Horario?</strong>
-                                </h4>
-                                <p>Las clases en vivo se imparten los días <span>jueves a las 6:00 pm</span> (Hora de CDMX). Las clases se graban para que puedas repasarlas.</p>
-                            
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                
-                                <h4>
-                                    <strong>¿Cómo me inscribo?</strong>
-                                </h4>
-                                <p>Envía un correo electrónico a <a href="mailto:marioglezhdez@me.com">mario@circuloux.com</a> para preguntar si quedan espacios y solicitar los informes para la inscripción.</p>
-                                
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                
-                                <h4>
-                                    <strong>¿Qué más necesito?</strong>
-                                </h4>
-                                <p>Una computadora con Internet. Todo el software que se necesita para el curso <span>es gratuito</span>.</p>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.row (nested) -->
-            </div>
-        </div>
-    </section>
-
-    
-    
-
-<!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>¿Tienes alguna duda?</strong>
-                    </h4>
-                    <p>Ponte en contacto con el Instructor
-                        <br>Mario González H.</p>
-                    <ul class="list-unstyled">
-                        <li><i class="fa fa-phone fa-fw"></i> (33) 1330-4666 | WhatsApp</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:mario@circuloux.com">mario@circuloux.com</a>
-                        </li>
-                    </ul>
-                    <br>
-                    <ul class="list-inline">
-                        <li>
-                            <a href="http://www.circuloux.com"><i class="fa fa-laptop fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="http://www.supraescolar.com"><i class="fa fa-wordpress fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/supraescolar/?fref=ts&ref=br_tf"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-                        </li>
-                    </ul>
-                    <hr class="small">
-                    <p class="text-muted">2016 &copy; Supraescolar | México</p>
-                </div>
-            </div>
-        </div>
-        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
-    </footer>
-
-
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script>
-    // Closes the sidebar menu
-    $("#menu-close").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-    // Opens the sidebar menu
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-    // Scrolls to the selected menu item on the page
-    $(function() {
-        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-    });
-    //#to-top button appears after scrolling
-    var fixed = false;
-    $(document).scroll(function() {
-        if ($(this).scrollTop() > 250) {
-            if (!fixed) {
-                fixed = true;
-                // $('#to-top').css({position:'fixed', display:'block'});
-                $('#to-top').show("slow", function() {
-                    $('#to-top').css({
-                        position: 'fixed',
-                        display: 'block'
-                    });
-                });
-            }
-        } else {
-            if (fixed) {
-                fixed = false;
-                $('#to-top').hide("slow", function() {
-                    $('#to-top').css({
-                        display: 'none'
-                    });
-                });
-            }
-        }
-    });
-    // Disable Google Maps scrolling
-    // See http://stackoverflow.com/a/25904582/1607849
-    // Disable scroll zooming and bind back the click event
-    var onMapMouseleaveHandler = function(event) {
-        var that = $(this);
-        that.on('click', onMapClickHandler);
-        that.off('mouseleave', onMapMouseleaveHandler);
-        that.find('iframe').css("pointer-events", "none");
-    }
-    var onMapClickHandler = function(event) {
-            var that = $(this);
-            // Disable the click handler until the user leaves the map area
-            that.off('click', onMapClickHandler);
-            // Enable scrolling zoom
-            that.find('iframe').css("pointer-events", "auto");
-            // Handle the mouse leave event
-            that.on('mouseleave', onMapMouseleaveHandler);
-        }
-        // Enable map zooming with mouse scroll when the user clicks the map
-    $('.map').on('click', onMapClickHandler);
-    </script>
-
-    <!-- Google Analytics -->
-      <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-82837745-1', 'auto');
-      ga('send', 'pageview');
-
-    </script>
-</body>
-
+    </body>
 </html>
-
-
-
-
+				

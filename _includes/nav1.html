@@ -1,28 +1,82 @@
 <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
-    <nav id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-            <li class="sidebar-brand">
-                <a href="#top" onclick=$("#menu-close").click();><img src="img/logo.png" alt="logo" id=logomenu></a>
-            </li>
-            <li>
-                <a href="#top" onclick=$("#menu-close").click();>Inicio</a>
-            </li>
-            <li>
-                <a href="#about" onclick=$("#menu-close").click();>Acerca del Curso</a>
-            </li>
-            <li>
-                <a href="#services" onclick=$("#menu-close").click();>Características</a>
-            </li>
-            <li>
-                <a href="#portfolio" onclick=$("#menu-close").click();>Temario</a>
-            </li>
-            <li>
-                <a href="#inscripcion" onclick=$("#menu-close").click();>Inscripción</a>
-            </li>
-            <li>
-                <a href="#contact" onclick=$("#menu-close").click();>Contacto</a>
-            </li>
-        </ul>
-    </nav>
+    <nav>
+            <div class="nav-bar nav--absolute nav--transparent" data-fixed-at="200">
+                <div class="nav-module logo-module left">
+                    <a href="index.html">
+                        <img class="logo logo-dark" alt="logo" src="img/logosupra.png" />
+                        <img class="logo logo-light" alt="logo" src="img/logo-light.png" />
+                    </a>
+                </div>
+            </div>
+            <!--end nav bar-->
+            <div class="nav-mobile-toggle" data-modal-id data-notification-link="nav-slide">
+                <i class="icon-Align-Right icon icon--sm"></i>
+                <span class="h6">Menu</span>
+            </div>
+        </nav>
+        <div class="notification pos-right pos-top nav-slide text-center col-sm-6 col-xs-12 bg--dark" data-notification-link="nav-slide" data-animation="from-right">
+            <div class="nav-slide__content">
+                <div class="pos-vertical-center">
+                    <a class="logo" href="index.html">
+                        <img alt="logo" src="img/logo-light.png" />
+                    </a>
+                    <ul class="menu">
+                        <li>
+                            <a href="#top">
+                                <span class="h4">Inicio</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#caracteristicas">
+                                <span class="h4">Características</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#instructor">
+                                <span class="h4">Instructor</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#detalles">
+                                <span class="h4">Más detalles</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#inscribete">
+                                <span class="h4">Inscripciones</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:marioglezhdez@me.com">
+                                <span class="h4">Email</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="pos-absolute pos-bottom">
+                    <ul class="social-list">
+                        <li>
+                            <a href="#">
+                                <i class="socicon-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="socicon-dribbble"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="socicon-vimeo"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="socicon-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <span class="type--fine-print">&copy; 2016 Supraescolar | Mario González Hernández - Derechos Reservados</span>
+                </div>
+            </div>
+        </div>
