@@ -19,3 +19,7 @@ Add your custom styles below
 .my__footer {
     background:black;
 }
+
+h3 {
+    font-size: 1.55em;
+}
