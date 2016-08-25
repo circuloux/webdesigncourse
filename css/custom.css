@@ -3,6 +3,20 @@ Add your custom styles below
 ****************************/
 
 
+/* ESTILOS GENERALES */
+
+h3 {
+    font-size: 1.55em;
+}
+
+
+/* COLORES */
+
+a.blanco {
+    color: white;
+}
+
+
 /* IMÁGENES*/
 
 .feature__title h6{
@@ -16,10 +30,21 @@ Add your custom styles below
 }
 
 
+/* FOOTER */
+
 .my__footer {
-    background:black;
+    background:#333333;
+    color: #d3d3d3;
 }
 
 h3 {
     font-size: 1.55em;
 }
+
+
+/* ESTILOS PARTICULARES */
+
+#titulo_principal > span {
+    color:#65e0e0;
+}
+
