@@ -18,11 +18,14 @@ a.blanco {
 
 .bg_gris {
     background:#c9c9c9;
-   
+    
 }
 
-
+/* SECTION STYLES */
  
+.bg_gris_title {
+     padding:45px;   
+}
 
 /* IMÁGENES*/
 
